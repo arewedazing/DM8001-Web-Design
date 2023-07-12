@@ -1,0 +1,145 @@
+/* standard */
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: dmsans;
+    src: url(../fonts/DMSans-Regular.ttf);
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background: url('../pics/olympus izm 230 /fuji superia 400/000065150007 2 copy.jpg') no-repeat center fixed; 
+    width: 100%;
+    background-size: cover;
+}
+
+content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 97%;
+    min-height: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.876);
+    margin-top: 50px;
+    bottom: 0;
+}
+
+footer h4{
+    font-family: dmsans;
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 8%;
+    color: whitesmoke;
+}
+
+footer .icons{
+    margin: 10px;
+    margin-top: 25px;
+}
+
+#bttop{
+    color: whitesmoke;
+    background-color: transparent;
+    font-family: dmsans;
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-right: 8%;
+    padding: 10px;
+    border-style: none;
+}
+
+.logo{
+    font-family: raleway;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px;
+    margin-left: 10%;
+}
+
+.logo a:hover{
+    text-decoration: none;
+}
+
+nav{
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px;
+    margin-right: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    color: whitesmoke;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links li{
+    list-style: none;
+}
+
+nav ul li:hover .more{
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.more{
+    position: absolute;
+    display: none;
+    line-height: 200%;
+    list-style: circle;
+}
+
+.more li{
+    color: black;
+}
+
+.more a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+/* hyperlink */
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+/* standard end */

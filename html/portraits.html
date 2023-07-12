@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>June Yong</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../css/gallery.css">
+
+        <script>
+            var bttop = document.getElementById("bttop")
+            var rootElement = document.documentElement
+
+            function BackToTop() {
+                rootElement.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                })
+            }
+            bttop.addEventListener("click", scrollToTop)
+        </script>
+    </head>
+    <body>
+        <section class="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="../html/landing.html"><b>JUNE YONG</b></a>
+                </div>
+        
+                <nav>
+                    <ul class="links">
+                        <li><b>PORTFOLIO</b>
+                            <ul class="more">
+                                <li><a href="../html/portraits.html"><b>PORTRAITS</b></a></li>
+                                <li><a href="../html/street.html"><b>STREET</b></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../html/blog.html"><b>BLOG</b></a></li>
+                        <li><a href="../html/about.html"><b>ABOUT</b></a></li>
+                        <li><a href="../html/contact.html"><b>CONTACT</b></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="content">
+                <div class="row"> 
+                    <div class="column">
+                      <img src="../pics/nikon d5300/red fever dream /IMG_4825 copy.jpg" style="width:100%">
+                      <img src="../pics/nikon d5300/red fever dream /IMG_4844 copy.jpg" style="width:100%">
+                      <img src="../pics/ricoh gr 2/fuhaos birthday/R0000077 copy.jpg" style="width:100%">
+                      <img src="../pics/olympus izm 230 /000446480031 copy.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="../pics/nikon d5300/red fever dream /IMG_4915 copy.jpg" style="width:100%">
+                      <img src="../pics/nikon d5300/red fever dream /IMG_4924 copy.jpg" style="width:100%">
+                      <img src="../pics/nikon d5300/red fever dream /IMG_4836 copy.jpg" style="width:100%">
+                      <img src="../pics/ricoh gr 2/fuhaos birthday/R0000075 copy.jpg" style="width:100%">
+                      <img src="../pics/ricoh gr 2/fuhaos birthday/R0000075 copy.jpg" style="width:100%">
+                    </div>  
+                    <div class="column">
+                      <img src="../pics/iphone 11/IMG_2587 copy.jpg" style="width:100%">
+                      <img src="../pics/iphone 11/IMG_2635 copy.jpg" style="width:100%">
+                      <img src="../pics/ricoh gr 2/annabel house/R0000179 copy.jpg" style="width:100%">
+                      <img src="../pics/ricoh gr 2/annabel house/R0000173 copy.jpg" style="width:100%">
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </section>
+            <footer>
+                <h4>&copy JUNE YONG 2021</h4>
+                <div class="icons">
+                    <a href="http://www.instagram.com/q00fandom" target="_blank"><img src="../pics/sm icons/ig black.png" style="height:25px; width:25px; object-fit: contain;" alt="instagram"></a>
+                    <a href="http://www.facebook.com" target="_blank"><img src="../pics/sm icons/fb black.png" style="height:25px; width:25px; object-fit: contain;" alt="facebook"></a>
+                    <a href="http://www.twitter.com/arewedazing" target="_blank"><img src="../pics/sm icons/twitter black.png" style="height:25px; width:25px; object-fit: contain;" alt="twitter"></a>
+                </div>
+                <button onclick="BackToTop()" id="bttop">BACK TO TOP</button>
+            </footer>
+    </section>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>June Yong</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../css/contact.css">
+
+        <script>
+            var bttop = document.getElementById("bttop")
+            var rootElement = document.documentElement
+
+            function BackToTop() {
+                rootElement.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                })
+            }
+            bttop.addEventListener("click", scrollToTop)
+
+            function Send() {
+            confirm("Thank you for your message!\nI will get back to you ASAP.");
+            }
+
+        </script>
+    </head>
+    <body>
+        <section class="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="../html/landing.html"><b>JUNE YONG</b></a>
+                </div>
+        
+                <nav id="nav">
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                      </div>
+                    <ul class="links">
+                        <li><b>PORTFOLIO</b>
+                            <ul class="more">
+                                <li><a href="../html/portraits.html"><b>PORTRAITS</b></a></li>
+                                <li><a href="../html/street.html"><b>STREET</b></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../html/blog.html"><b>BLOG</b></a></li>
+                        <li><a href="../html/about.html"><b>ABOUT</b></a></li>
+                        <li><a href="../html/contact.html"><b>CONTACT</b></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+        <section class="content">
+            <div class="pic">
+                <img src="../pics/olympus izm 230 /ilford hp5/000603230016 copy.jpg" style="height:auto; width:45vw; object-fit: cover; margin-left: 5%;" alt="trees">
+            </div>
+    
+            <div class="contact">
+                <div class="title">
+                  <h1>GET IN TOUCH</h1>
+                  <h3>JUNE.YONGWK@GMAIL.COM</h3>
+                </div>
+                <div class="contact-form">
+                    <div class="input-fields">
+                    <input type="text" class="input" placeholder="NAME"><br>
+                    <input type="text" class="input" placeholder="EMAIL"><br>
+                    <input type="text" class="input" placeholder="PHONE"><br>
+                    <input type="text" class="input" placeholder="SUBJECT"><br>
+                </div>
+                <div class="msg">
+                    <textarea placeholder="MESSAGE"></textarea><br><br><br>
+                    <div class="btn" onclick="Send()">SEND</div>
+                </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </section>
+        <footer>
+            <h4>&copy JUNE YONG 2021</h4>
+            <div class="icons">
+                <a href="http://www.instagram.com/q00fandom" target="_blank"><img src="../pics/sm icons/ig black.png" style="height:25px; width:25px; object-fit: contain;" alt="instagram"></a>
+                <a href="http://www.facebook.com" target="_blank"><img src="../pics/sm icons/fb black.png" style="height:25px; width:25px; object-fit: contain;" alt="facebook"></a>
+                <a href="http://www.twitter.com/arewedazing" target="_blank"><img src="../pics/sm icons/twitter black.png" style="height:25px; width:25px; object-fit: contain;" alt="twitter"></a>
+            </div>
+            <button onclick="BackToTop()" id="bttop">BACK TO TOP</button>
+        </footer>
+    </section>
+    </body>
+</html>

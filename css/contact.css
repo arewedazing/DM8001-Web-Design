@@ -1,0 +1,236 @@
+/* standard */
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: dmsans;
+    src: url(../fonts/DMSans-Regular.ttf);
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(238, 237, 231);
+}
+
+content{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height:50px;
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+
+footer h4{
+    font-family: dmsans;
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 8%;
+}
+
+footer .icons{
+    margin: 10px;
+    margin-top: 25px;
+}
+
+#bttop{
+    background-color: transparent;
+    font-family: dmsans;
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-right: 8%;
+    padding: 10px;
+    border-style: none;
+}
+
+.logo{
+    font-family: raleway;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px;
+    margin-left: 10%;
+}
+
+.logo a:hover{
+    text-decoration: none;
+}
+
+
+nav{
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px;
+    margin-right: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.more {
+    float: left;
+    overflow: hidden;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links li{
+    list-style: none;
+}
+
+nav ul li:hover .more{
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.more{
+    position: absolute;
+    display: none;
+    line-height: 200%;
+    background: rgb(226, 220, 196);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.more a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* hyperlink */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* standard end */
+
+.pic, .contact {
+    float: left;
+}
+
+.contact{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.contact .title h1, h3{
+    color: black;
+    font-family: dmsans;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.contact .title h1{
+    font-size: 3em;
+}
+
+.contact .title h3{
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+    width: 45%;
+}
+
+.input-fields .input,
+.msg textarea{
+    margin: 10px 0;
+    font-family: dmsans;
+    letter-spacing: 2px;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid rgba(53, 53, 53, 0.438);
+    padding: 10px;
+    color: black;
+    width: 100%;
+}
+
+.msg textarea{
+    min-height: 100px;
+    max-height: 175px;
+}
+
+.btn {
+    font-family: dmsans;
+    letter-spacing: 3px;
+    background:rgb(226, 220, 196);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.clearfix {clear: both;}
+h2 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 992px){
+    /* header */
+    .logo{
+        margin: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-family: raleway;
+        color: black;
+        font-size: 2.3em;
+        letter-spacing: 3px;
+    }
+
+    /* content */
+
+}
